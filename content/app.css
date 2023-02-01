@@ -1,0 +1,221 @@
+// color de fondo #543F30
+// nuevo color de fondo #993333
+// color claro  #D0B9A6
+// fondo ambiente #74896F
+// fondo platos #BCD1B7
+// fondo calidad #C08A75
+// fondo atencion #FFDEBC
+
+
+.boxed { BORDER: #D0B9A6 1px solid; BACKGROUND-COLOR: #993333; padding: 5px; }
+.semiboxed { BORDER-TOP: thin solid; BORDER-BOTTOM: thin solid; BORDER-COLOR: #B9B9B9; BORDER-WIDTH: 1px; }
+p.normal {MARGIN-LEFT: 20px;}
+hr { BORDER: thin solid; COLOR: #E8F3D6;}
+.sponsor {BORDER-TOP: #E8F3D6 1px solid;padding-bottom:10px;padding-top:10px;}
+.firmaDeporte {FONT-FAMILY: Tahoma, Verdana, Arial;FONT-SIZE: 14px;}
+input.ficha {width: 100%}
+BODY
+{
+	COLOR: white;
+    FONT-FAMILY: Trebuchet MS, Verdana, Arial;
+    FONT-SIZE: 12px;
+	MARGIN-TOP: 5px;
+	MARGIN-BOTTOM: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;	
+	background-color : #993333;
+	wBACKGROUND-IMAGE: url(../images/back.gif);
+	wBACKGROUND-REPEAT: repeat; 
+	behavior:url(#default#homePage);
+}
+TABLE
+{
+    FONT-FAMILY: Trebuchet MS, Verdana, Arial;
+    FONT-SIZE: 14px;
+}
+H1 { FONT-FAMILY: Trebuchet MS, Verdana, Arial; FONT-SIZE: 20px; COLOR: #D0B9A6; MARGIN-BOTTOM: 0px;}
+H2
+{
+    FONT-FAMILY: Trebuchet MS, Verdana, Arial;
+    COLOR: #D0B9A6;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold;
+	MARGIN-TOP: 10px;
+	MARGIN-BOTTOM: 0px;
+}
+FORM
+{
+	MARGIN-TOP: 0px;
+	MARGIN-BOTTOM: 0px;	
+}		
+A {COLOR: white; FONT-WEIGHT: normal;	text-decoration : underline;    FONT-FAMILY: Trebuchet MS, Tahoma, Verdana, Arial;FONT-SIZE: 14px;}
+A:visited {   COLOR: white;}
+.error {COLOR: white; FONT-WEIGHT: bold}
+.info {COLOR: white; FONT-WEIGHT: normal }
+.smalltext {COLOR: #CCCCCC; FONT-SIZE: 8pt; LINE-HEIGHT: 140% }
+.smalltext A { COLOR: #CCCCCC; FONT-SIZE: 8pt; text-decoration : underline; LINE-HEIGHT: 140% }
+.smallInput { FONT-SIZE: 10px; }	
+
+
+.button { FONT-FAMILY: Trebuchet MS, Tahoma, Verdana, Arial; background-color:#E5E5E5; BORDER: thin solid; BORDER-COLOR: #90A0B0; BORDER-WIDTH: 1px; FONT-SIZE: 12px; cursor: hand; }
+.graybutton { background-color:#E8F3D6; BORDER: thin solid; BORDER-COLOR: #3A746C; BORDER-WIDTH: 1px; FONT-SIZE: 12px; cursor: hand; }
+.clsBtnUp { background-color:#E8F3D6; BORDER: thin solid; BORDER-COLOR: #3A746C; BORDER-WIDTH: 1px; FONT-SIZE: 12px; cursor: hand; padding: 4px;}
+.clsBtnUp A { COLOR: black ; text-decoration: none;}
+
+.contactenos A {COLOR: black; FONT-WEIGHT: bold;	text-decoration : none; FONT-FAMILY: Trebuchet MS, Tahoma, Verdana, Arial; FONT-SIZE: 12px; font-variant: small-caps}
+.contactenos A:visited {   COLOR: black;}
+
+.Menu { BORDER-TOP: #3A746C 1px solid; BORDER-BOTTOM: #3A746C 1px solid; BACKGROUND-COLOR: #E8F3D6; padding: 1px; }
+.menuselected
+{
+	font-family: Verdana, Arial;
+	font-size: 11px;
+    COLOR: Black;
+	font-weight: bold;
+	BACKGROUND: #E8F3D6;
+	TEXT-ALIGN: center;
+	
+}
+.menuselected A 
+{
+    COLOR: Black;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration : none;	
+}
+.menuunselected A:visited { COLOR: Black; }
+.menuunselected
+{
+	font-family: Verdana, Arial;
+	font-size: 11px;
+    COLOR: #3A746C;
+	font-weight: bold;
+	BACKGROUND: #E8F3D6;
+	TEXT-ALIGN: center;
+}
+.menuunselected A 
+{
+    COLOR: #3A746C;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration : none;	
+}
+.menuunselected A:visited { COLOR: #3A746C; }
+
+.SectionMenu { 
+    COLOR: GRAY;
+	padding-right: 5px; 
+	padding-left: 5px; 
+	font-size: 14px;
+	font-weight: normal;
+}
+.SectionMenu A 
+{
+    COLOR: GRAY;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration : none;	
+}
+.SectionMenu A:visited { COLOR: GRAY; }
+
+.innersection
+{
+	PADDING-TOP: 5px; 
+	PADDING-BOTTOM: 5px; 	
+	PADDING-LEFT: 15px;
+	PADDING-RIGHT: 5px;
+}
+TABLE#GenTabla 
+{
+	PADDING: 0;
+	MARGIN: 1;
+    COLOR: white;
+	VERTICAL_ALIGN: top;
+    FONT-SIZE: 12px;	
+	BORDER-BOTTOM: thin solid;
+	BORDER-COLOR: black;
+    FONT-FAMILY: Verdana, Arial
+}
+TH#GenTabla 
+{
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+    BACKGROUND-COLOR: Black;
+    COLOR: white;
+    FONT-WEIGHT: bolder;
+}
+TD#GenTabla 
+{
+    COLOR: black;
+	BORDER-BOTTOM: thin solid;
+	BORDER-COLOR: #e0e0e0;
+}
+
+TD.FormHeader {	text-align=right;  font-weight: bold;	}
+TD.FormField {}
+
+.roundedboxtitle
+{
+    COLOR: #9C6563;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-WEIGHT: bolder;			
+    FONT-SIZE: 12pt;	
+    TEXT-DECORATION: none
+}
+.smalltextinv
+{
+    COLOR: #FFDFBD;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 8pt;
+    LINE-HEIGHT: 140%
+}
+.smalltextinv A
+{
+    COLOR: #FFDFBD;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 8pt;
+	text-decoration : underline;
+    LINE-HEIGHT: 140%
+
+}
+
+.minititulo
+{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+    font-weight: bold;	
+    color: #336699;
+}
+.minititulo A 
+{
+	font-weight: bold;	
+    color: #336699;
+	text-decoration : none;	
+}
+.minititulo A:visited { COLOR: #336699; }
+
+
+TABLE.GenTabla 
+{
+	PADDING: 0;
+	MARGIN: 1;
+    COLOR: white;
+	VERTICAL_ALIGN: top;
+    FONT-SIZE: 10px;	
+	BORDER-BOTTOM: thin solid;
+	BORDER-COLOR: #74896F;
+}
+TH.GenTabla 
+{
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+    BACKGROUND-COLOR: #74896F;
+    COLOR: white;
+    FONT-WEIGHT: bolder;
+}
+TD.GenTabla 
+{
+    COLOR: white;
+	BORDER-BOTTOM: thin solid;
+	BORDER-COLOR: #e0e0e0;
+}

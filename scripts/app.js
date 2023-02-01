@@ -3,28 +3,23 @@
 		this.get('/', function () {
 			$('#content').load('home.html');
 		});
-
 		this.get('#/contactenos', function () {
 			$('#content').load('contactenos.html');
 		});
-		this.get('#/habitaciones', function () {
-			$('#content').load('habitaciones.html');
+		this.get('#/platos', function () {
+			$('#content').load('platos.html');
 		});
-		this.get('#/servicios', function () {
-			$('#content').load('servicios.html');
+		this.get('#/calidad', function () {
+			$('#content').load('calidad.html');
 		});
-		this.get('#/ubicacion', function () {
-			$('#content').load('ubicacion.html');
-		});
-		this.get('#/galeria', function () {
-			$('#content').load('galeria.html');
+		this.get('#/atencion', function () {
+			$('#content').load('atencion.html');
 		});
 	});
 
 	$(function () {
 		app.run();
 	});
-
 	
 })(jQuery);
 
